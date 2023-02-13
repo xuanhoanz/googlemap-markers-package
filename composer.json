@@ -1,0 +1,25 @@
+{
+    "name": "pine/pine-googlemap-markers",
+    "description": "This is Pine googlemap markers component",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pine\\PineGooglemapMarkers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xuanhoanz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pine\\PineGooglemapMarkers\\PineGmMarkersServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
